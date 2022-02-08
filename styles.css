@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f1f9fc;
+  font-family: serif;
+  color: #000000;
+}
+
+h1{
+  font-size: 5vw;
+  font-weight: normal;
+  background-color: #e3ebf0;
+  border-color: #e3ebf3;
+}
+
+.header_div{
+  background-color: #e3ebf0;
+  border-color: #e3ebf3;
+  text-align: center;
+}
+
+.header_div_child_1{
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.header_div_child_2{
+  vertical-align: top;
+  display:inline-block;
+  margin-top: 7px;
+  margin-right: 4px;
+}
+
+.header_div_child_3{
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.header_div_child_4{
+  vertical-align: top;
+  display:inline-block;
+  margin-right: 5px;
+  margin-top: 11px;
+}
+
+.header_div_child_5{
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 4px;
+  margin-top: 15px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+P{
+  margin: 0px;
+  padding: 3px;
+}
+
+.parentLyric{
+  text-align: center;
+}
+.childLyric{
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.lyrictext{
+  vertical-align: top;
+  display:inline-block;
+  background-color: #e3ebf0;
+  width: 550px;
+  height: 700px;
+  border: 1px solid black;
+  border-color: #e3ebf3;
+  margin-top: 5px;
+  font-family: "Courier New", monospace;
+}
+
+.lyrics_margin{
+  margin-top: 10px;
+}
